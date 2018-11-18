@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.digicon_valley.explicitandimplicitintent">
+    package="com.digicon_valley.app_a">
 
     <application
         android:allowBackup="true"
@@ -19,9 +19,8 @@
         <activity android:name=".Main2Activity"></activity>
         <activity
             android:name=".Main3Activity">
-
             <intent-filter>
-                <action android:name="com.digicon_valley.explicitandimplicitintent.main3activity">
+                <action android:name="com.digicon_valley.App_a.main3activity">
                 </action>
                    <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>

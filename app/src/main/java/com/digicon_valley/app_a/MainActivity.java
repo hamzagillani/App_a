@@ -1,4 +1,4 @@
-package com.digicon_valley.explicitandimplicitintent;
+package com.digicon_valley.app_a;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
